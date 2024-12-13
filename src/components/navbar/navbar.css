@@ -1,0 +1,9 @@
+.navbar {
+    width: 100%;
+}
+
+.navbar h1 {
+    font-size: 2rem;
+    text-align: left;
+    color: var(--fg-white);
+}

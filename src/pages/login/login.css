@@ -1,0 +1,28 @@
+.loginPage {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+button {
+    background-color: var(--fg-yellow);
+    border: black solid;
+    padding-inline: 100px;
+    padding-block: 10px;
+    font-size: 2rem;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: var(--fg-grey);
+    cursor: pointer;
+}
+
+h1 {
+    color: var(--fg-yellow);
+    font-size: 7rem;
+}

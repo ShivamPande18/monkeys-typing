@@ -1,0 +1,33 @@
+.typeArea {
+    color: var(--fg-grey);
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.typeArea p {
+    text-align: center;
+    /* text-align: justify; */
+    font-size: 2.3rem;
+    word-spacing: 0.6rem;
+    position: relative;
+    /* padding-inline: 5px; */
+}
+
+.countCont {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* .typeArea p::after {
+    content: "|";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: var(--fg-yellow);
+} */
